@@ -1,0 +1,123 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/abril-fatface');
+
+@font-face {
+  font-family: 'Abril', sans-serif;
+  src: url('./assets/CONSTANTS/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue', sans-serif;
+  src: url('./assets/CONSTANTS/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  src: url('./assets/CONSTANTS/Ubuntu_Mono/UbuntuMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-family-main: 'Abril', sans-serif; 
+  --font-family-body: 'Neue', sans-serif;
+  --font-family-sub: 'Ubuntu', sans-serif;
+  
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #000000;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+body {
+  font-family: var(--font-family-main); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-main); 
+}
+
+ */
+
+
+
+
+
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/abril-fatface');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/ubuntu-mono');
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('./assets/CONSTANTS/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/CONSTANTS/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Neue Haas Grotesk Body';
+  src: url('./assets/CONSTANTS/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Body';
+  src: url('./assets/CONSTANTS/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url('./assets/CONSTANTS/Ubuntu_Mono/UbuntuMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family-main: 'Abril Fatface', sans-serif;
+  --font-family-body: 'Neue Haas Grotesk', sans-serif;
+  --font-family-sub: 'Ubuntu Mono', monospace;
+  --font-family-bud: 'Neue Haas Grotesk Body', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-main);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-main);
+}
+
+.masterr {
+  font-family: var(--font-family-body);
+}

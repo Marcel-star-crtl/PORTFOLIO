@@ -1,0 +1,27 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff; 
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+  
+.back-to-top:hover {
+    background-color: #555; 
+}
+  
+.arrow-up-icon {
+    width: 20px;
+    height: 20px;
+}
+  

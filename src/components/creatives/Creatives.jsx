@@ -88,14 +88,14 @@ const Creatives = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_4di7yzr', 
-      'template_zc56zt9', 
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
       {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message
       },
-      'q0fKUzlLIz-1EIPxv' 
+      process.env.REACT_APP_EMAILJS_USER_ID 
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);

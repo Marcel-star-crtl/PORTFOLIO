@@ -89,18 +89,6 @@ const App = () => (
       <Connect />
       <Team />
       <Creatives />
-      {/* <Sponsors /> */}
-      {/* <Divider />
-      <Speakers />
-      <Divider />
-      <Activities />
-      <Session />
-      <Feedback />
-      <Volunteer />
-      <Ticket />
-      <Creatives />
-      <SocialMedia />
-      <Footer /> */}
       <ScrollToTop />
     </div>
   </Router>

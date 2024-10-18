@@ -73,6 +73,9 @@
 
 
 
+
+
+
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
@@ -86,7 +89,7 @@ const Connect = () => {
     // { displayName: 'Creative Evt', domain: 'https://creatives.ulevus.com/' },
     // { displayName: 'LGV Gas', domain: 'https://testlgvgas.ulevus.com/' },
     { displayName: 'GSA', domain: 'https://greenspaceacademy.org/' },
-    // { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
+    { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
   ];
 
   return (

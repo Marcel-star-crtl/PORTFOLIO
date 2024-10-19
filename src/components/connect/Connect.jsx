@@ -84,12 +84,12 @@ import './projects.css'
 
 const Connect = () => {
   const projects = [
-    { displayName: 'Push', domain: 'https://pushevt.com/' },
+    // { displayName: 'Push', domain: 'https://pushevt.com/' },
     { displayName: 'Ulevus', domain: 'https://ulevus.com/' },
     // { displayName: 'Creative Evt', domain: 'https://creatives.ulevus.com/' },
     // { displayName: 'LGV Gas', domain: 'https://testlgvgas.ulevus.com/' },
     { displayName: 'GSA', domain: 'https://greenspaceacademy.org/' },
-    { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
+    // { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
   ];
 
   return (

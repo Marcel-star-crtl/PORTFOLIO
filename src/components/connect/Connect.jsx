@@ -92,7 +92,7 @@ const Connect = () => {
     { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
     { displayName: 'GSA', domain: 'https://greenspaceacademy.org/' },
     { displayName: 'Dashboard', domain: 'https://dashboard-tau-six-91.vercel.app/' },
-    // { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
+    { displayName: 'House of Joy', domain: 'https://hoj-f2ue.vercel.app/' },
   ];
 
   return (

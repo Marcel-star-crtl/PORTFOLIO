@@ -84,14 +84,14 @@ import './projects.css'
 
 const Connect = () => {
   const projects = [
-    { displayName: 'Push', domain: 'https://pushevt.com/' },
+    // { displayName: 'Push', domain: 'https://pushevt.com/' },
     { displayName: 'Ulevus', domain: 'https://ulevus.com/' },
     // { displayName: 'Creative Evt', domain: 'https://creatives.ulevus.com/' },
-    { displayName: 'LGV Gas', domain: 'https://gas-project-uq5q.vercel.app/' },
+    // { displayName: 'LGV Gas', domain: 'https://gas-project-uq5q.vercel.app/' },
     { displayName: 'Creatives', domain: 'https://creatives-alpha.vercel.app//' },
-    { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
+    // { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
     { displayName: 'GSA', domain: 'https://greenspaceacademy.org/' },
-    { displayName: 'Dashboard', domain: 'https://dashboard-tau-six-91.vercel.app/' },
+    // { displayName: 'Dashboard', domain: 'https://dashboard-tau-six-91.vercel.app/' },
     { displayName: 'House of Joy', domain: 'https://hoj-f2ue.vercel.app/' },
   ];
 

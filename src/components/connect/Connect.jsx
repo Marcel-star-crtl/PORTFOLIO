@@ -91,9 +91,10 @@ const Connect = () => {
     { displayName: 'LGV Gas', domain: 'https://gas-project-uq5q.vercel.app/' },
     { displayName: 'Creatives', domain: 'https://creatives-alpha.vercel.app//' },
     { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
+    { displayName: 'USOD', domain: 'https://ulevusschoolofdesign.com/' },
     { displayName: 'Syneen', domain: 'https://testshyneen.ulevus.com/' },
     { displayName: 'GSA', domain: 'https://greenspaceacademy.org/' },
-    { displayName: 'Design Cona', domain: 'https://designcona.com/' },
+    { displayName: 'Design Cona', domain: 'https://test.designcona.com/' },
     { displayName: 'Dashboard', domain: 'https://dashboard-tau-six-91.vercel.app/' },
     { displayName: 'House of Joy', domain: 'https://hoj-f2ue.vercel.app/' },
   ];

@@ -87,11 +87,14 @@ const Connect = () => {
     // { displayName: 'Push', domain: 'https://pushevt.com/' },
     { displayName: 'Ulevus', domain: 'https://ulevus.com/' },
     // { displayName: 'Creative Evt', domain: 'https://creatives.ulevus.com/' },
-    // { displayName: 'LGV Gas', domain: 'https://gas-project-uq5q.vercel.app/' },
+    { displayName: 'Tech Lite Hub', domain: 'https://techlitehub.com/' },
+    { displayName: 'LGV Gas', domain: 'https://gas-project-uq5q.vercel.app/' },
     { displayName: 'Creatives', domain: 'https://creatives-alpha.vercel.app//' },
-    // { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
+    { displayName: 'Annies', domain: 'https://store-psl2.vercel.app/' },
+    { displayName: 'Syneen', domain: 'https://testshyneen.ulevus.com/' },
     { displayName: 'GSA', domain: 'https://greenspaceacademy.org/' },
-    // { displayName: 'Dashboard', domain: 'https://dashboard-tau-six-91.vercel.app/' },
+    { displayName: 'Design Cona', domain: 'https://designcona.com/' },
+    { displayName: 'Dashboard', domain: 'https://dashboard-tau-six-91.vercel.app/' },
     { displayName: 'House of Joy', domain: 'https://hoj-f2ue.vercel.app/' },
   ];
 
